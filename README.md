@@ -6,7 +6,7 @@
 
 ## 📊 Description
 
-Implémentation d'un **schéma de Crank–Nicolson** pour résoudre l’EDP de Black–Scholes (call européen) dans la variable $x = \ln(S)$. Le script étudie la **convergence** du schéma en fonction de $M$ (espace) et $N$ (temps), et compare les prix numériques au prix fermé de Black–Scholes.
+Implémentation d'un **schéma de Crank–Nicolson** pour résoudre l'équation aux dérivées partielles (EDP) de Black-Scholes et pricer un Call Européen.
 
 ## 🎯 Objectifs
 
