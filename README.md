@@ -6,13 +6,13 @@
 
 ## 📊 Description
 
-Implémentation d'un **schéma de Crank–Nicolson** pour résoudre l'équation aux dérivées partielles (EDP) de Black-Scholes et pricer un Call Européen.
+Implémentation d'un **schéma de Crank–Nicolson** pour résoudre l'équation aux dérivées partielles (EDP) de Black-Scholes et pricer un Call Européen
 
 ## 🎯 Objectifs
 
-- Résoudre l’EDP de Black–Scholes par différences finies en log‑prix.
-- Analyser la convergence de l’erreur en fonction des pas temporel et spatial.
-- Mesurer les temps d’exécution pour différentes grilles.
+- Résoudre l’EDP de Black–Scholes par différences finies en log‑prix
+- Analyser la convergence de l’erreur en fonction des pas temporel et spatial
+- Mesurer les temps d’exécution pour différentes grilles
 
 ## 📐 Modèle Mathématique
 
@@ -50,14 +50,14 @@ $$\alpha = \frac{h\sigma^2}{4\delta^2} - \frac{h(r - 0.5\sigma^2)}{4\delta}, \qu
 \beta = 1 - \frac{rh}{2} - \frac{h\sigma^2}{2\delta^2}, \quad
 \gamma = \frac{h(r - 0.5\sigma^2)}{4\delta} + \frac{h\sigma^2}{4\delta^2}$$
 
-La résolution du système tridiagonal est faite via `solve_banded` (SciPy).
+La résolution du système tridiagonal est faite via `solve_banded` (SciPy)
 
 ## 📈 Expériences
 
 Le script :
-- calcule les prix numériques pour plusieurs couples $(M, N)$ ;
-- compare au prix analytique de Black–Scholes ;
-- trace l’erreur en échelle log–log.
+- calcule les prix numériques pour plusieurs couples $(M, N)$ 
+- compare au prix analytique de Black–Scholes 
+- trace l’erreur en échelle log–log
 
 ## 🚀 Utilisation
 
