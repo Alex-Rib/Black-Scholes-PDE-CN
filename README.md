@@ -73,4 +73,4 @@ pip install numpy pandas matplotlib scipy
 
 ## 👨‍💻 Auteur
 
-Alexandre R. - Master ISIFAR, Université Paris Cité
+Alexandre R. - Université Paris Cité
